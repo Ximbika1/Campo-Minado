@@ -1,0 +1,155 @@
+body, p{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	align-items: baseline;
+	justify-content: space-between;
+}
+.menu nav{
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	background-color: #ffe600;
+}
+.menu nav div{
+	border-style: solid;
+	border-color: #ebd400 #ffe600 #ffe600 #ebd400;
+	border-width: 30px 10px;
+}
+.menu nav div.selected{
+	border-color: #ffe600 #ebd400 #ebd400 #ffe600!important;
+}
+.menu p.selected{
+	background-color: #ebd400;
+}
+.menu nav p, .menu h1{
+	padding: 11px;
+	font-size: 2.1em;
+	font-weight: bold;
+	min-width: 200px;
+	text-align: center;
+}
+.menu nav p:first-child{
+	border-radius: 10px 0px 0px 10px;
+}
+.menu nav p:last-child{
+	border-radius: 0px 10px 10px 0px;
+}
+.menu .alter-page, input[type="submit"], .cancel{
+	cursor: pointer;
+}
+.menu img{
+	height: 165px;
+	margin-top: 20px;
+	margin-right: 7.5%;
+}
+.menu h1{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 3px dotted #ebd400;
+	width: 40%
+}
+.menu ~ form{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+	min-height: 235px;
+}
+.menu ~ form p{
+	margin: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-weight: bold;
+}
+.columns{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 900px;
+	width: 95%;
+	margin-bottom: 15px;
+}
+.menu ~ form > p{
+	max-width: 380px;
+	width: 100%;
+}
+
+.columns p{
+	max-width: 48%;
+	width: 50%;
+	min-width: 325px;
+}
+.menu ~ form p, input[type="submit"], .cancel{
+	font-size: 1.4em;
+}
+.columns input{
+	margin-left: 5px;
+	max-width: 300px!important;
+}
+.menu ~ form p input{
+	width: 100%;
+	padding: 5px 10px;
+	border: 0px;
+	border-bottom: 1px solid;
+	max-width: 260px;
+	outline: 0;
+	font-size: 0.85em;
+	transform: translateY(-3px);
+}
+input[type="submit"]{
+	background-color: #00B897;
+	border: 1px solid #000;
+	border-radius: 10px;
+	color: #fff;
+	padding: 10px;
+	min-width: 200px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+}
+.error-field{
+	color: #d90909;
+}
+.error-field input{
+	border-color: #d90909!important;
+	background-color: #ffc6c6;
+}
+.cancel{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	padding: 10px;
+	background-color: #ebd400;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+footer{
+	background-image: url("../images/camouflage.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: top;
+	max-height: 10vh;
+	height: 150px;
+	min-height: 50px;
+}

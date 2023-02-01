@@ -1,0 +1,96 @@
+/* .botao-volta{
+    padding: 20px;    
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;  
+    background-color: black; 
+    color: white; 
+    font-weight: bold;
+}
+
+.botao-volta:hover {
+    color: black;
+    background-color: #FFD700
+} */
+
+/* Css do Ranking table*/
+table {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+td {
+    padding: 10px 100px 10px 100px;
+}
+
+th {
+    background-color: #FFD700;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+th:nth-child(1) {
+    padding: 0px 10px 0px 10px !important;
+}
+
+td:nth-child(1) {
+    background-color: #F5DD02;
+    padding: 0px 0px 0px 0px !important;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+tr{
+    background-color: #fffbda;
+}
+
+tr:nth-child(even) {
+    background-color: #faf1a0;
+}
+/*Alinhamento da tabela*/
+.rank-table {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: -webkit-center;
+}
+.rank-title{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.rank-title h2 {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: expanded;
+    color: #f0c817;
+    text-align: center;  
+    font-weight: 800;
+    width: 100%;
+}
+.rank-title img{
+    width: 88px;
+    height: 112px;
+}
+.footer-contet{ 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 300px;  
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
