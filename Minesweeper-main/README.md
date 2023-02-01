@@ -5,6 +5,6 @@ Site web do jogo campo minado, o usuário precisará fazer um cadastro e depois 
  
 ## Ferramentas utilizadas:
 - HTML e CSS.
--JavaScript.
--PHP.
--Banco de Dados SQL server.
+- JavaScript.
+- PHP.
+- Banco de Dados SQL server.
